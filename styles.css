@@ -4,7 +4,7 @@ body {
 }
 
 .assignment {
-	display: flex;
+	width: 21%;
 	padding: 10px;
 	margin: 10px;
 	margin-bottom: 30px;
@@ -13,12 +13,19 @@ body {
 	box-shadow: 5px 10px black;
 }
 
+.assignments {
+	display: flex;
+	flex-wrap:wrap;
+}
+
 .assignment img {
 	width: 200px;
 	#padding: 10px;
 	border: 3px solid black;
 	margin-right: 20px;
 	border-radius: 5px;
+	display:block;
+	margin:auto;
 }
 
 .assignment a:hover{
